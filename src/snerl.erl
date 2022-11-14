@@ -17,7 +17,8 @@ main(_Args) ->
 %% game_loop/0
 game_loop() ->
     cecho:mvaddstr(0, 0, "Hello, World!"),
-    Key = cecho:getch().
+    cecho:refresh(),
+    cecho:getch().
 
 
 %% cecho_setup/0

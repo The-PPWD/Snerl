@@ -1,9 +1,7 @@
 {application, snerl, [{description, "A snake game written in Erlang"},
-        {vsn, "0.0.1"},
-        {registered, []},
-        {applications, [kernel, stdlib, cecho]},
-        {env, []},
-        {modules, []},
-        {licenses, ["MIT"]},
-        {links, []}
-    ]}.
+                      {vsn, "0.0.1"},
+                      {applications, [kernel, stdlib, cecho]},
+                      {licenses, ["MIT"]}
+                     ]
+}.
+
